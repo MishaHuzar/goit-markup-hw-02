@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", Helvetica, sans-serif; 
+    color: #434455;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; 
+}
+
+/* Header */
+
+.logo {
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo .logo-part, 
+.team-header, 
+.nav-link, 
+.features-header,
+.team-name,
+.portfolio-header,
+.portfolio-project {
+    color:#2e2f42;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-link:hover, 
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+}
+
+/* main */
+
+
+.hero-banner {
+    background-color: #2e2f42;  
+}
+
+.hero-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;    
+}
+
+.hero-button {
+    background-color: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-button:hover, 
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.features-header, 
+.team-name,
+.portfolio-project {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.features-text, 
+.team-role,
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-header, 
+.portfolio-header {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-item {
+    background-color: #fff;
+}
+
+.team-name {
+    text-align: center;
+}
+
+.team-role {
+    text-align: center
+}
+
+.footer-text {
+    color: #f4f4fd;
+}
+
